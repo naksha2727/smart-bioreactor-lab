@@ -1,0 +1,19 @@
+import streamlit as st
+
+def show_info():
+    st.subheader("📘 About Bioreactor")
+
+    st.write("""
+A bioreactor is a controlled system where microorganisms grow under optimal conditions.
+
+### Key Parameters:
+- Temperature: Affects enzyme activity
+- pH: Influences metabolic pathways
+- Oxygen: Required for aerobic respiration
+- Stirring: Ensures uniform mixing
+
+### Growth Phases:
+1. Lag Phase
+2. Log Phase
+3. Stationary Phase
+    """)
